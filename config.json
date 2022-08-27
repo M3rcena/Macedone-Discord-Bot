@@ -5,7 +5,35 @@
         "Your ID"
     ],
 
-     "memer_api": "Get from https://discord.gg/ZtmMUVBjPm"
+     "memer_api": "Get from https://discord.gg/ZtmMUVBjPm",
+
+"client_settings" {
+    "nodes": [
+        {
+            "host": "localhost",
+            "port": "",
+            "password": "mypassword",
+            "secure": "false"
+        }
+    ]
 },
 
-""
+"status" {
+    "text": "{prefix}help to view the commands | Support server: https://discord.gg/NRnf7QvZ4N",
+    "text2": "{guildcount} Servers, with {membercount} Members.",
+    "url": "https://github.com/Mercena2007/Macedone-Discord-Bot",
+    "type": "PLAYING"
+},
+
+"settings": {
+    "leaveOnEmpty_Channel": {
+       "enabled": true,
+       "time_delay": 30000
+    },
+    "LeaveOnEmpty_Queue": {
+       "enabled": true,
+       "time_delay": 30000
+    },    
+    "selfDeaf": true
+ }
+}
