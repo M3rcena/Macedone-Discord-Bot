@@ -5,7 +5,6 @@ const OS = require('os')
 const enmap = require("enmap");
 const fs = require("fs");
 const Events = require("events");
-const { delay } = require("./handlers/functions")
 require('dotenv').config()
 
 const client = new Discord.Client({
